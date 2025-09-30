@@ -1,0 +1,1 @@
+Meter_ID,Customer_ID,Date,Consumption_kWh,Region,Status,Peak_Hour,Billing_Status,mean_meter,std_meter,zscore,global_spike,Anomaly_Flag,Anomaly_Type
