@@ -39,7 +39,7 @@ SmartMeter-Analytics-Project/
 │
 ├── dashboard/
 │ ├── Smart_Meter_Consumption.pbix
-│ └── DASHBOARD_SCREENSHOT.png
+│ └── Dashborad_Screenshot.png
 │
 └── README.md
 
@@ -54,4 +54,4 @@ SmartMeter-Analytics-Project/
 
  📸 Dashboard Preview  
 
-![Dashboard](dashboard/DASHBOARD_SCREENSHOT.png)
+![Dashboard](dashboard/Dashborad_Screenshot.png)
