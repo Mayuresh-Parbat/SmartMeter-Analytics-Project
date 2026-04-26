@@ -1,57 +1,90 @@
- Smart Meter Energy Consumption Analytics 🔌⚡  
+🔌 Smart Meter Energy Consumption Analytics
 
-This project analyzes Smart Meter electricity consumption data using Python and Power BI.  
-It shows how data can be cleaned, stored, and visualized to identify patterns in energy usage.  
+End-to-end data analytics project to analyze electricity usage patterns and detect anomalies using Python, SQLite, and Power BI.
 
----
+📖 Overview
 
- 📊 Features  
-✔ Data Cleaning with Python (handled missing values, anomalies)  
-✔ SQLite Database for storing cleaned data  
-✔ Power BI Dashboard with:  
-- KPI Cards: Total Consumption, Average Consumption, Anomaly Count  
-- Line Chart with 7-day Rolling Average  
-- Region-wise Consumption (Bar Chart)  
-- Customer-wise Consumption  
-- Anomalies Table with highlights  
-- Interactive Slicers (Date, Region, Status)  
+This project focuses on analyzing smart meter electricity consumption data to extract meaningful insights and identify unusual usage patterns. It demonstrates a complete data analytics pipeline — from raw data preprocessing to interactive dashboard visualization.
 
----
-
-🛠 Tools Used  
-- Python (pandas, sqlite3) – for data cleaning & storage  
-- Power BI – for dashboard & visualization  
-GitHub – for hosting portfolio  
-
----
-
- 📂 Project Structure  
+✨ Key Highlights
+🔹 Cleaned and preprocessed raw data using Python (pandas)
+🔹 Stored structured data in a SQLite database
+🔹 Built an interactive Power BI dashboard
+🔹 Performed time-series analysis (7-day rolling average)
+🔹 Detected anomalies in consumption patterns
+🔹 Enabled filtering using dynamic slicers
+📊 Dashboard Features
+KPI Cards
+Total Consumption
+Average Consumption
+Anomaly Count
+Visualizations
+📈 Consumption Trend (with rolling average)
+📊 Region-wise Comparison
+👤 Customer-level Analysis
+⚠️ Anomaly Detection Table
+Interactivity
+Date filter
+Region filter
+Status-based filtering
+🛠 Tech Stack
+Category	Tools Used
+Data Processing	Python (pandas)
+Database	SQLite
+Visualization	Power BI
+Version Control	GitHub
+📂 Project Structure
 SmartMeter-Analytics-Project/
 │
 ├── data/
-│ ├── Raw_Smart_Meter_Data.csv
-│ ├── Clean_Smart_Meter_Data.csv
-│ ├── Anomalies.csv
-│ └── smart_meter.db
+│   ├── Raw_Smart_Meter_Data.csv
+│   ├── Clean_Smart_Meter_Data.csv
+│   ├── Anomalies.csv
+│   └── smart_meter.db
 │
 ├── scripts/
-│ └── Data_cleaning.py
+│   └── Data_cleaning.py
 │
 ├── dashboard/
-│ ├── Smart_Meter_Consumption.pbix
-│ └── Dashborad_Screenshot.png
+│   ├── Smart_Meter_Consumption.pbix
+│   └── Dashboard_Screenshot.png
 │
 └── README.md
+🚀 How to Run
 
----
+Clone the repository
 
-🚀 How to Run  
-1. Run `scripts/Data_cleaning.py` → this cleans raw data & saves files.  
-2. Open `dashboard/Smart_Meter_Consumption.pbix` in Power BI.  
-3. Explore the dashboard with filters and charts.  
+git clone https://github.com/your-username/SmartMeter-Analytics-Project.git
 
----
+Run the data cleaning script
 
- 📸 Dashboard Preview  
+python scripts/Data_cleaning.py
+Open the dashboard
+Navigate to dashboard/
+Open Smart_Meter_Consumption.pbix in Power BI
+📸 Dashboard Preview
 
-![Dashboard](dashboard/Dashborad_Screenshot.png)
+📈 Insights Generated
+Identified peak consumption periods
+Compared energy usage across regions
+Highlighted abnormal consumption patterns
+Enabled data-driven decision-making
+🎯 Project Value
+
+This project showcases:
+
+End-to-end Data Analytics workflow
+Strong foundation in Python + SQL + Power BI
+Ability to convert raw data into actionable insights
+🔮 Future Improvements
+Add forecasting (time-series prediction)
+Implement machine learning-based anomaly detection
+Deploy dashboard using Power BI Service
+Automate data pipeline
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
+
+📬 Contact
+
+If you found this project useful, feel free to connect or reach out!
