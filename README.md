@@ -85,6 +85,9 @@ Automate data pipeline
 
 Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
+Author 
+Mayuresh Parbat
+
 📬 Contact
 
 If you found this project useful, feel free to connect or reach out!
