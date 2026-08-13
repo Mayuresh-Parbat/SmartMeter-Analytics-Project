@@ -81,13 +81,9 @@ Add forecasting (time-series prediction)
 Implement machine learning-based anomaly detection
 Deploy dashboard using Power BI Service
 Automate data pipeline
-🤝 Contributing
+
 
 Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
 Author 
 Mayuresh Parbat
-
-📬 Contact
-
-If you found this project useful, feel free to connect or reach out!
